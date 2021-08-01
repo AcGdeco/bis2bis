@@ -1,0 +1,280 @@
+*{
+    font-family:Graphik;
+    margin-top: 0;
+    margin-left:0;
+}
+td{
+    vertical-align: middle;
+}
+.flex{
+    display:flex;
+    justify-content:center;
+}
+.inputDigite{
+    width:590px;
+    height:40px;
+    padding:10px;
+    border-radius:5px;
+    border:solid 1px gray;
+}
+.pointer{
+    cursor:pointer;
+}
+.menu{
+    font-size:18px;
+    width:100%;
+    text-align:center;
+    background-color:black;
+    color:white;
+    padding:10px;  
+}
+.titulo{
+    width:85%;
+    font-weight:bolder;
+    display:flex;
+    align-items:center;
+    font-size:30px;
+    vertical-align: middle;
+}
+div.veja{
+    text-align:right;
+    width:90%;
+}
+span.veja{
+    color:white;
+    font-weight:bolder;
+    background-color:#333333;
+    border-radius:100px;
+    font-size:14px;
+    padding:5px;
+    padding-right:25px;
+    padding-left:25px;
+    cursor:pointer;
+}
+.produto{
+    text-align:center;
+    width:20%;
+}
+.absolute{
+    position:absolute;
+}
+.paddingtrinta{
+    padding-top:30px;
+}
+.fontdezoito{
+    font-size:18px;
+}
+.precoantigo{
+    color:gray;
+    font-size:14px;
+    padding-top:30px;
+    text-decoration: line-through;
+}
+.preco{
+    font-weight:bolder;
+    font-size:22px;
+}
+.parcelado{
+    color:gray;
+    font-size:14px;
+}
+.promocao{
+    position:absolute;
+    margin-top:270px;
+    margin-left:-80px;
+    color:white;
+    font-weight:bolder;
+    background-color:#333333;
+    border-radius:5px;
+    padding:5px;
+    font-size:14px;
+    padding-right:15px;
+    padding-left:15px;
+}
+.oitenta{
+    position:absolute;
+    margin-top:0px;
+    margin-left:-80px;
+    color:white;
+    font-weight:bolder;
+    background-color:#333333;
+    border-radius:500px;
+    padding:10px;
+    font-size:14px;
+}
+table.depoimentos{
+    text-align:center;
+    width:30%;
+    border:solid 1px gray;
+    border-radius:5px;
+    padding:60px;
+}
+.depoimentosTitulo{
+    padding-bottom:40px;
+    font-size:25px;
+    font-weight:bolder;
+}
+.paddingQuarenta{
+    padding-bottom:40px;
+}
+.negrita{
+    font-weight:bolder;
+}
+.corCinza{
+    color:gray;
+}
+.textoDepoimento{
+    text-align:justify;
+    padding-bottom:40px;
+    color:gray;
+}
+.btnDepoimento{
+    cursor:pointer;
+    background-color:#333333;
+    padding:10px;
+    border-radius:5px;
+    color:white;
+}
+.sobre{
+    width:55%;
+    background-color:#F1F1F1;
+    border-radius:5px;
+    margin-left:10px;
+    padding:40px;
+}
+.paddingtrinta{
+    padding:30;
+}
+.sobreTexto{
+    text-align:justify;
+    color:gray;
+    font-size:14px;
+    padding-bottom:30px;
+}
+.cellBotao{
+    padding:10px;
+    text-align:right;
+}
+.penultima{
+    color:gray;
+}
+.ultima{
+    width:80%;
+    color:gray;
+    font-size:15px;
+}
+.alinhamento{
+    vertical-align:top;
+}
+.rs{
+    text-align:center;
+}
+.tableAcessar{
+    display:none;
+    position:absolute;
+    background-color:white;
+    border:solid 1px gray;
+    margin-left:-40px;
+    margin-top:-30px;
+    padding:10px;
+}
+.thAcessar{
+    text-align:left;
+    font-weight:bolder;
+    font-size:18px;
+}
+.paddingTres{
+    padding:3px;
+}
+.esqueciSenha{
+    color:gray;
+    text-decoration: underline;
+    font-size:14px;
+}
+.entrar{
+    padding:10px;
+    text-align:center;
+}
+.novo{
+    font-weight:bolder;
+}
+.tdCadastrar{
+    padding:10px;
+    text-align:center;
+}
+.cadastrar{
+    background-color:lightgray;
+    color:black;
+    font-weight:bolder;
+}
+#perfumes{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    display:none;
+    position:absolute;
+    background-color:white;
+    padding:20px;
+    box-shadow:5px 5px 5px black;
+    left:0;
+    width:96%;
+}
+.widthcem{
+    width:100%;
+}
+.tdPerfumes{
+    text-align:justify;
+    max-width:350px;
+}
+.tituloPerfumes{
+    font-size:25px;
+    font-weight:bolder;
+}
+.textoCinza{
+    color:gray;
+}
+.tdCentro{
+    text-align:center;
+}
+.confira{
+    font-weight:bolder;
+    padding:5px;
+}
+.confiraTexto{
+    color:gray;
+    padding:5px;
+}
+.fechar{
+    text-align:right;
+    color:gray;
+    cursor:pointer;
+}
+.tableComprar{
+    position:absolute;
+    background-color:white;
+    z-index:3;
+}
+#compraDiv{
+    display:none;
+    background-color:white;
+    z-index:2;
+}
+.widthdez{
+    width:10px;
+}
+.tituloDhebora{
+    text-align:left;
+    font-size:25px;
+    color:gray;
+}
+.dadosDhebora{
+    color:gray;
+    font-size:12px;
+}
+.paraQuem{
+    color:gray;
+    font-size:12px;
+}
+.corCinza{
+    color:gray;
+}
