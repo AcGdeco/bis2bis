@@ -1,18 +1,18 @@
-<table class = "sobre" >
+<table class = "sobre" style = "width:60%;" >
     <tr>
         <td>
-            <img src="img/cosmeticos.png" alt=""> 
+            <img style = "width:150px" src="img/cosmeticos.png" alt=""> 
         </td>
-        <td>
+        <td style = "width:50%" >
             <table>
                 <tr>
-                    <td class = "paddingtrinta" >
+                    <td>
                         <img src="img/sobre.png" alt="">
                     </td>
                 </tr>
                 <tr>
-                    <td class = "sobreTexto">
-                        "ajdlksfjkaçsdjf klçadsjf çdlkafjçklsdfjçalskdf asdkfçjakslçdfjasd akçsdfjlasdfdjfad akdfçjalsdkfjasdlkf çlasdjfçkladsfjadsçklf jklasfjçalksdjfasdkl jaklfjçklsdfj aklsfja sfkjaçsldfajf çasdljf çkalsdjf açkldsjfkla dfaklsdf aklsçdfja sdfçlkas jdfkfajdsç fl jsadfçl jasçdflkasdjf klajs fdçklasfj açklsd fjaklsçdfj aksçld jfas dlfj daçsfkj alsf lasd jfasjdlkfja slkdfj çdasf çaklsdjsdklfjads fajdkslfjklaçsdjfadslf çjsdlk alskdj flajsd fkldasjfkasdjf klçadsf çaklsdjf laksjf açsldkjfla fas lf alskdjflkasjd fkalsdj fklasdj fçlkasj flkasjf aklsdfj çkldj fklaçsjdf aklçsjf çakldsfj çaklsdj fçlaksdj fçaklsd fklasdj fklasdjçf aklsjf adlskjf klsaajdlksfjkaçsdjf klçadsjf çdlkafjçklsdfjçalskdf asdkfçjakslçdfjasd akçsdfjlasdfdjfad akdfçjalsdkfjasdlkf çlasdjfçkladsfjadsçklf jklasfjçalksdjfasdkl jaklfjçklsdfj aklsfja sfkjaçsldfajf çasdljf çkalsdjf açkldsjfkla dfaklsdf aklsçdfja sdfçlkas jdfkfajdsç fl jsadfçl jasçdflkasdjf klajs fdçklasfj açklsd fjaklsçdfj aksçld jfas dlfj daçsfkj alsf lasd jfasjdlkfja slkdfj çdasf çaklsdjsdklfjads fajdkslfjklaçsdjfadslf çjsdlk alskdj flajsd fkldasjfkasdjf klçadsf çaklsdjf laksjf açsldkjfla fas lf alskdjflkasjd fkalsdj fklasdj fçlkasj flkasjf aklsdfj çkldj fklaçsjdf aklçsjf çakldsfj çaklsdj fçlaksdj fçaklsd fklasdj fklasdjçf aklsjf adlskjf klsa"
+                    <td class = "sobreTexto" style = "width:10px;word-wrap:wrap;" >
+                        "ajdlksfjkaçsdjfafkajsdfçajsdfjkdsafj jdfbçalsjfçkalsdjfçkvb kajd fj dsf dskf jakldçsfj kldj faç jdsfj a dfj açdsklfj kadlsfj"
                     </td>
                 </tr>
                 <tr>

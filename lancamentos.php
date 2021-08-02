@@ -1,4 +1,4 @@
-<div class = "flex" >
+<div class = "flex" style = "flex-wrap:wrap;" >
         <table id = "debora" onmouseover="alternarProduto()" onmouseout="alternarProduto()" class = "produto">
             <tr>
                 <td>
@@ -155,3 +155,6 @@
             </tr>
         </table>
     </div>
+    <br><br><br><br>
+
+    

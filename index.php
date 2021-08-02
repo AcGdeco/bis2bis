@@ -16,17 +16,17 @@
         <img width = "100%"  src = "img/caminhao.png" />
     </div>
     <div class = "flex" style = "width:100%;z-index:1;border-bottom:solid 1px black;background-color:white;position: -webkit-sticky;position: sticky;top: 0;"  >
-        <table  >
-            <tr>
-                <td>
-                    <img width = "210px" src = "img/logo.png" />
+        <table style = "width:80%;" >
+            <tr style = "width:80%;" >
+                <td style = "width:20%;" >
+                    <img style = "width:80%"src = "img/logo.png" />
                 </td>
-                <td>
-                    <input class = "inputDigite" type = "text" placeholder="Digite o que procura" />
+                <td style = "width:20%;" >
+                    <input style = "width:100%" class = "inputDigite" type = "text" placeholder="Digite o que procura" />
                 </td>
-                <td>
+                <td style = "width:20%;" >
                     <div onmouseover = "alternarAcessarConta()" onmouseout="alternarAcessarConta()" >
-                        <img class = "pointer" src = "img/acessarconta.png" />
+                        <img style = "width:50%" class = "pointer" src = "img/acessarconta.png" />
                         <table id = "acessarConta" class = "tableAcessar" >
                             <tr>
                                 <th class = "thAcessar">
@@ -66,9 +66,9 @@
                         </table>
                     </div>
                 </td>
-                <td>
+                <td style = "width:20%;" >
                     <div onmouseover = "alternarAjuda()" onmouseout="alternarAjuda()" >
-                        <img class = "pointer" src = "img/ajuda.png" />
+                        <img style = "width:50%" class = "pointer" src = "img/ajuda.png" />
                         <table id = "ajuda" style = "display:none;position:absolute;background-color:white;margin-top:-30px;margin-left:-60;border:solid 1px gray;" >
                             <tr>
                                 <td style = "padding:5px;text-align:center;font-size:20px;font-weight:bolder;" >
@@ -108,130 +108,130 @@
                         </table>
                     </div>
                 </td>
-                <td>
-                    <img class = "pointer" src = "img/carrinho.png" />
+                <td style = "width:20%;" >
+                    <img style = "width:50%" class = "pointer" src = "img/carrinho.png" />
                 </td>
             </tr>
         </table>
     </div>
-    <div class = "flex" >
-        <table class = "menu">
-            <tr>
-                <td onmouseover = "alternarPerfumes()" onmouseout="alternarPerfumes()" >
-                    Perfumes
-                    <div id = "perfumes">
-                        <table class = "widthcem">
-                            <tr>
-                                <td class = "tdPerfumes" >
-                                    <span class = "tituloPerfumes" >Perfumes</span><br><br>
-                                    <span class = "textoCinza">
-                                    Perfumes masculinos, femininos e compartilháveis tipo EDP (Wau de Parfum) seguindo as melhores tendências da perfumaria internacional.<br>
-                                    As seleções das melhores fragrâncias do mundo estão aqui com ótimo custo benefício.<br>
-                                    Com volumetrias de 50 e 100 mL, parcelamento em até 12 vezes e com promoções, nos consideramos uma perfumaria de acesso por oferecer produtos de qualidade premium a preços justos.
-                                    </span>
-                                </td>
-                                <td class = "tdCentro" >
-                                    <img src="img/perfume1.png" alt=""><br>
-                                    <span class = "confira" >
-                                        Confira todas as nossas Fragrâncias<br>
-                                    </span>
-                                    <span class = "confiraTexto" >
-                                        Aadsfadsf akjf asdfjlakf, akldfjlkadsjf safdsf                                                
-                                    </span>
-                                </td>
-                                <td>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <img src="img/perfume2.png" alt="">
-                                            </td>
-                                            <td>
-                                                Fragrâncias Femininas<br>
-                                                Eau de Parfum
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <img src="img/perfume3.png" alt="">
-                                            </td>
-                                            <td>
-                                                Fragrâncias Masculinas<br>
-                                                Eau de Parfum
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <img src="img/perfume4.png" alt="">
-                                            </td>
-                                            <td>
-                                                Fragrâncias Compartilháveis<br>
-                                                Eau de Parfum
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <img src="img/perfume5.png" alt="">
-                                            </td>
-                                            <td>
-                                                Fragrâncias Exclusivas<br>
-                                                Eau de Parfum
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-                <td>
-                    Corpo e Banho
-                </td>
-                <td>
-                    Linha Ambiente
-                </td>
-                <td>
-                    Blog
-                </td>
-            </tr>
-        </table>
-    </div>
-    <br>
-    <div class = "flex">
-        <table>
-            <tr>
-                <td>
-                    <img style = "width:100%;" class = "pointer" src = "img/img1.png" />
-                </td>
-                <td>
-                    <table>
+<div class = "flex" >
+    <table class = "menu">
+        <tr>
+            <td onmouseover = "alternarPerfumes()" onmouseout="alternarPerfumes()" >
+                Perfumes
+                <div id = "perfumes">
+                    <table class = "widthcem">
                         <tr>
-                            <td>
-                                <img style = "width:100%;" class = "pointer" src = "img/img2.png" />
+                            <td class = "tdPerfumes" >
+                                <span class = "tituloPerfumes" >Perfumes</span><br><br>
+                                <span class = "textoCinza">
+                                Perfumes masculinos, femininos e compartilháveis tipo EDP (Wau de Parfum) seguindo as melhores tendências da perfumaria internacional.<br>
+                                As seleções das melhores fragrâncias do mundo estão aqui com ótimo custo benefício.<br>
+                                Com volumetrias de 50 e 100 mL, parcelamento em até 12 vezes e com promoções, nos consideramos uma perfumaria de acesso por oferecer produtos de qualidade premium a preços justos.
+                                </span>
+                            </td>
+                            <td class = "tdCentro" >
+                                <img src="img/perfume1.png" alt=""><br>
+                                <span class = "confira" >
+                                    Confira todas as nossas Fragrâncias<br>
+                                </span>
+                                <span class = "confiraTexto" >
+                                    Aadsfadsf akjf asdfjlakf, akldfjlkadsjf safdsf                                                
+                                </span>
                             </td>
                             <td>
-                                <img style = "width:100%;" class = "pointer" src = "img/img3.png" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img style = "width:100%;" class = "pointer" src = "img/img4.png" />
-                            </td>
-                            <td>
-                                <img style = "width:100%;" class = "pointer" src = "img/img5.png" />
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <img src="img/perfume2.png" alt="">
+                                        </td>
+                                        <td>
+                                            Fragrâncias Femininas<br>
+                                            Eau de Parfum
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="img/perfume3.png" alt="">
+                                        </td>
+                                        <td>
+                                            Fragrâncias Masculinas<br>
+                                            Eau de Parfum
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="img/perfume4.png" alt="">
+                                        </td>
+                                        <td>
+                                            Fragrâncias Compartilháveis<br>
+                                            Eau de Parfum
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="img/perfume5.png" alt="">
+                                        </td>
+                                        <td>
+                                            Fragrâncias Exclusivas<br>
+                                            Eau de Parfum
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
                     </table>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
+                </div>
+            </td>
+            <td>
+                Corpo e Banho
+            </td>
+            <td>
+                Linha Ambiente
+            </td>
+            <td>
+                Blog
+            </td>
+        </tr>
+    </table>
+</div>
+<br>
+<div class = "flex">
+    <table>
+        <tr>
+            <td>
+                <img style = "width:100%;" class = "pointer" src = "img/img1.png" />
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <img style = "width:100%;" class = "pointer" src = "img/img2.png" />
+                        </td>
+                        <td>
+                            <img style = "width:100%;" class = "pointer" src = "img/img3.png" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img style = "width:100%;" class = "pointer" src = "img/img4.png" />
+                        </td>
+                        <td>
+                            <img style = "width:100%;" class = "pointer" src = "img/img5.png" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+<br>
+<br>
+<br>
+<br>
 
-    <!--Lançamentos-->
-    <div class = "flex" >
+<!--Lançamentos-->
+<div class = "flex" >
         <div class = "titulo" >
             <img src = "img/simbolologo.png" /> Lançamentos
         </div>
@@ -243,79 +243,77 @@
     <br>
     <?php include("comprar.php"); ?>
     <?php include("lancamentos.php"); ?>
-    
-    <br><br><br><br>
-    <!--Promoções-->
-    <div class = "flex" >
-        <div class = "titulo" >
-            <img src = "img/simbolologo.png" /> Promoções
-        </div>
-    </div>
-    <div class = "veja">
-        <span class = "veja" >Veja +</span>
-    </div>
-    <br>
-    <br>
-    <?php include("produtos.php"); ?>
-    <br><br><br><br>
-    <div class = "flex" >
-        <table>
-            <tr>
-                <td>
-                    <img style = "width:100%;" src = "img/img6.png" />
-                </td>
-                <td>
-                    <img style = "width:100%;" src = "img/img7.png" />
-                </td>
-                <td>
-                    <img style = "width:100%;" src = "img/img8.png" />
-                </td>
-            </tr>
-            <tr>
-                <td colspan = "3" >
-                    <img style = "width:100%;" src = "img/img9.png" />
-                </td>
-            </tr>
-        </table>
-    </div>
-    <br><br><br><br>
 
-    <!--Destaques-->
-    <div class = "flex" >
-        <div class = "titulo" >
-            <img src = "img/simbolologo.png" /> Destaques
-        </div>
+<!--Promoções-->
+<div class = "flex" >
+    <div class = "titulo" >
+        <img src = "img/simbolologo.png" /> Promoções
     </div>
-    <div class = "veja">
-        <span class = "veja" >Veja +</span>
+</div>
+<div class = "veja">
+    <span class = "veja" >Veja +</span>
+</div>
+<br>
+<br>
+<?php include("produtos.php"); ?>
+<br><br><br><br>
+<div class = "flex" >
+    <table>
+        <tr>
+            <td>
+                <img style = "width:100%;" src = "img/img6.png" />
+            </td>
+            <td>
+                <img style = "width:100%;" src = "img/img7.png" />
+            </td>
+            <td>
+                <img style = "width:100%;" src = "img/img8.png" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan = "3" >
+                <img style = "width:100%;" src = "img/img9.png" />
+            </td>
+        </tr>
+    </table>
+</div>
+<br><br><br><br>
+<!--Destaques-->
+<div class = "flex" >
+    <div class = "titulo" >
+        <img src = "img/simbolologo.png" /> Destaques
     </div>
-    <br>
-    <br>
-    <?php include("produtos.php"); ?>
-    <br><br><br><br>
+</div>
+<div class = "veja">
+    <span class = "veja" >Veja +</span>
+</div>
+<br>
+<br>
+<?php include("produtos.php"); ?>
+<br><br><br><br>
 
-    <!--Mais Vendidos-->
-    <div class = "flex" >
-        <div class = "titulo" >
-            <img src = "img/simbolologo.png" /> Mais Vendidos
-        </div>
+<!--Mais Vendidos-->
+<div class = "flex" >
+    <div class = "titulo" >
+        <img src = "img/simbolologo.png" /> Mais Vendidos
     </div>
-    <div class = "veja">
-        <span class = "veja" >Veja +</span>
-    </div>
-    <br>
-    <br>
-    <?php include("produtos.php"); ?>
-    <br><br><br><br>
+</div>
+<div class = "veja">
+    <span class = "veja" >Veja +</span>
+</div>
+<br>
+<br>
+<?php include("produtos.php"); ?>
+<br><br><br><br>
 
-    <div class = "flex" style = "width:100%;" >
-            <?php include("depoimentos.php"); ?>
-            <?php include("sobre.php"); ?>
-    </div>
-    <br><br><br><br>
+<div class = "flex" style = "flex-wrap:wrap;width:100%;align-items: center;" >
+        <?php include("depoimentos.php"); ?>
+        <?php include("sobre.php"); ?>
+</div>
+<br><br><br><br>
 
-    <!--Instagram-->
-    <div class = "flex" >
+<!--Instagram-->
+<div class = "flex" >
         <div class = "titulo" >
             <img src = "img/simbolologo.png" /> Instagram
         </div>
@@ -327,9 +325,11 @@
         </div>
     </div>
 <br>
+
 <!--Penúltima parte-->
 <?php include("penultima.php"); ?>
 <br><br>
+
 <!--Penúltima parte-->
 <?php include("ultima.php"); ?>
 

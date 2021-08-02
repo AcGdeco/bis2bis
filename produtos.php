@@ -1,4 +1,4 @@
-<div class = "flex" >
+<div class = "flex" style = "flex-wrap:wrap;" >
         <table id = "debora" class = "produto">
             <tr>
                 <td>

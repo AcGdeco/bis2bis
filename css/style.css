@@ -11,7 +11,7 @@ td{
     justify-content:center;
 }
 .inputDigite{
-    width:590px;
+    max-width:590px;
     height:40px;
     padding:10px;
     border-radius:5px;
@@ -136,11 +136,10 @@ table.depoimentos{
     color:white;
 }
 .sobre{
-    width:55%;
     background-color:#F1F1F1;
     border-radius:5px;
     margin-left:10px;
-    padding:40px;
+    padding:5px;
 }
 .paddingtrinta{
     padding:30;

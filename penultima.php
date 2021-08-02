@@ -25,19 +25,19 @@
 <div class="flex" style = "background-color:#F1F1F1;padding-top:20px;padding-bottom:40px;">
     <table style = "width:90%;" >
         <tr>
-            <td class = "negrita" >
+            <td class = "negrita" style = "font-size:14px;" >
                 INSTITUCIONAL
             </td>
-            <td class = "negrita" >
+            <td class = "negrita"  style = "font-size:14px;" >
                 DÚVIDAS
             </td>
-            <td class = "negrita" >
+            <td class = "negrita"  style = "font-size:14px;" >
                 MINHA CONTA
             </td>
-            <td class = "negrita" >
+            <td class = "negrita"  style = "font-size:14px;" >
                 POLÍTICAS
             </td>
-            <td class = "negrita" >
+            <td class = "negrita"  style = "font-size:14px;" >
                 REDES SOCIAIS
             </td>
         </tr>
@@ -55,7 +55,7 @@
                 Política de segurança
             </td>
             <td>
-                <img src="img/redessociais.png" alt="">
+                <img style = "width:50%;" src="img/redessociais.png" alt="">
             </td>
         </tr>
         <tr>
@@ -72,7 +72,7 @@
                 Política de privacidade
             </td>
             <td class = "penultima" >
-                <img src="img/zap.png" alt="">
+                <img style = "width:50%;" src="img/zap.png" alt="">
             </td>
         </tr>
         <tr>
@@ -89,7 +89,7 @@
                 Política de garantia
             </td>
             <td>
-                <img src="img/horario.png" alt="">
+                <img style = "width:50%;" src="img/horario.png" alt="">
             </td>
         </tr>
         <tr>
@@ -106,7 +106,7 @@
                 Política de envio
             </td>
             <td>
-                <img src="img/loja.png" alt="">
+                <img style = "width:50%;" src="img/loja.png" alt="">
             </td>
         </tr>
     </table>

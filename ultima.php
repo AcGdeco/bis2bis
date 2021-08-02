@@ -13,13 +13,13 @@
         </tr>
         <tr>
             <td class = "alinhamento">
-                <img src="img/fim1.png" alt="">
+                <img style = "width:50%;" src="img/fim1.png" alt="">
             </td>
             <td class = "alinhamento">
-                <img src="img/fim2.png" alt="">
+                <img style = "width:50%;" src="img/fim2.png" alt="">
             </td>
             <td>
-                <img src="img/fim3.png" alt="">
+                <img style = "width:50%;" src="img/fim3.png" alt="">
             </td>
         </tr>
         <tr>
